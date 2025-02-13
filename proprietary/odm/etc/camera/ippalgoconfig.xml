@@ -35,6 +35,7 @@
   <IppAlgo name="HwaDMapIpp" switcher="0"></IppAlgo>
   <IppAlgo name="IppAlgoDM" switcher="0"></IppAlgo>
   <IppAlgo name="FrontBokehAlgo" switcher="1"></IppAlgo>
+  <IppAlgo name="FrontMaskAlgo" switcher="1"></IppAlgo>
   <IppAlgo name="OisMgr" switcher="0"></IppAlgo>
   <IppAlgo name="VideoStabMph" switcher="0"></IppAlgo>
   <IppAlgo name="VidHance" switcher="0"></IppAlgo>
@@ -43,14 +44,17 @@
   <IppAlgo name="SenseMgr" switcher="0"></IppAlgo>
   <IppAlgo name="ModeRecommendation" switcher="1"></IppAlgo>
   <IppAlgo name="Frontgesture" switcher="1"></IppAlgo>
+  <IppAlgo name="SensorHdrIpp" switcher="1"></IppAlgo>
   <IppAlgo name="AgeGender" switcher="1"></IppAlgo>
   <IppAlgo name="HwFaceAttr" switcher="1"></IppAlgo>
   <IppAlgo name="VideoAutoZoom" switcher="0"></IppAlgo>
+  <IppAlgo name="SuperVideo" switcher="1"></IppAlgo>
+  <IppAlgo name="VideoAutoZoom" switcher="0"></IppAlgo>
   <IppAlgo name="SmartBeautyIpp" switcher="1"></IppAlgo>
   <IppAlgo name="FairLightIpp" switcher="1"></IppAlgo>
-  <IppAlgo name="ObjectDetection" switcher="0"></IppAlgo>
-  <IppAlgo name="ObjectDetectionDraw" switcher="0"></IppAlgo>
+  <IppAlgo name="ObjectDetection" switcher="1"></IppAlgo>
+  <IppAlgo name="ObjectDetectionDraw" switcher="1"></IppAlgo>
   <IppAlgo name="CIEProxy" switcher="1"></IppAlgo>
-  <IppAlgo name="SuperVideo" switcher="1"></IppAlgo>
+  <IppAlgo name="HwMovieModeIpp" switcher="0"></IppAlgo>
   <IppAlgo name="NightHAWKIppAlgo" switcher="1"></IppAlgo>
 </IppConfig>

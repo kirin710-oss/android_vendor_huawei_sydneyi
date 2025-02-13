@@ -1,9 +1,0 @@
-<?xml version="1.0" encoding="utf-8"?>
-<Config>
-  <Global>
-    <EnableFramesOptimize>1</EnableFramesOptimize>
-    <ISO1>200</ISO1>
-    <ISO2>400</ISO2>
-    <ISO3>5000</ISO3>
-  </Global>
-</Config>

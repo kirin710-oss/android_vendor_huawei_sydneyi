@@ -40,8 +40,8 @@
     <BlendSigma>0.25</BlendSigma>
   </FlashHDR>
   <Face>
-    <AjustRatio>64</AjustRatio>
-    <Margin>10</Margin>
+    <AjustRatio>180</AjustRatio>
+    <Margin>-20</Margin>
     <SmoothRadius>40</SmoothRadius>
   </Face>
   <PreMotionDetection>

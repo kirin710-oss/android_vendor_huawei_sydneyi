@@ -14,13 +14,13 @@
   <HistAE>
     <OVEREXPO_2UnStable_TH>6000</OVEREXPO_2UnStable_TH>
     <OVEREXPO_2Stable_TH>5000</OVEREXPO_2Stable_TH>
-    <UNDEREXPO_2UnStable_TH>7200</UNDEREXPO_2UnStable_TH>
+    <UNDEREXPO_2UnStable_TH>7000</UNDEREXPO_2UnStable_TH>
     <UNDEREXPO_2Stable_TH>5500</UNDEREXPO_2Stable_TH>
-    <EXPO_ISO_TH>60</EXPO_ISO_TH>
+    <EXPO_ISO_TH>180</EXPO_ISO_TH>
     <OVEREXPO_2UnStable_TH_Dark>6000</OVEREXPO_2UnStable_TH_Dark>
     <OVEREXPO_2Stable_TH_Dark>5000</OVEREXPO_2Stable_TH_Dark>
-    <UNDEREXPO_2UnStable_TH_Dark>51200</UNDEREXPO_2UnStable_TH_Dark>
-    <UNDEREXPO_2Stable_TH_Dark>51200</UNDEREXPO_2Stable_TH_Dark>
+    <UNDEREXPO_2UnStable_TH_Dark>7000</UNDEREXPO_2UnStable_TH_Dark>
+    <UNDEREXPO_2Stable_TH_Dark>5500</UNDEREXPO_2Stable_TH_Dark>
     <MULTIPLE>2</MULTIPLE>
     <EMPTYBIN_2Stable>6</EMPTYBIN_2Stable>
     <EMPTYBIN_2UnStable>10</EMPTYBIN_2UnStable>
@@ -33,115 +33,30 @@
     <mid2over_HLIGHTR>10</mid2over_HLIGHTR>
     <over2mid_HLIGHTR>1</over2mid_HLIGHTR>
     <mid2over_MLIGHTR>300</mid2over_MLIGHTR>
-    <nightLightEVComp>0</nightLightEVComp>
-    <histEVCompMax>0</histEVCompMax>
-    <histEVCompMin>0</histEVCompMin>
-    <chOverEVCompMin>0</chOverEVCompMin>
+    <nightLightEVComp>-600</nightLightEVComp>
+    <histEVCompMax>600</histEVCompMax>
+    <histEVCompMin>-600</histEVCompMin>
+    <chOverEVCompMin>-600</chOverEVCompMin>
     <isHDRExpoMaxThre>16</isHDRExpoMaxThre>
   </HistAE>
-  <DepthAE>
-    <depthAEFlag>0</depthAEFlag>
-    <depthEVCompMax>0</depthEVCompMax>
-    <depthEVCompMin>0</depthEVCompMin>
-  </DepthAE>
   <ISPCCMCOMP>
     <ccSingleCompPixel_MaxThreshold>220</ccSingleCompPixel_MaxThreshold>
     <ccSingleCompPixel_MinThreshold>10</ccSingleCompPixel_MinThreshold>
     <ccSingleForFaceCompPixel_MaxThreshold>200</ccSingleForFaceCompPixel_MaxThreshold>
     <ccSingleForFaceCompPixel_MinThreshold>30</ccSingleForFaceCompPixel_MinThreshold>
     <ccSingleCompThreshold>100</ccSingleCompThreshold>
-    <ccSingleCompForFaceRectsThreshold>10</ccSingleCompForFaceRectsThreshold>
+    <ccSingleCompForFaceRectsThreshold>100</ccSingleCompForFaceRectsThreshold>
   </ISPCCMCOMP>
   <HdrCompAjust>
     <hdrType0_underExposureAdjust>256</hdrType0_underExposureAdjust>
     <hdrType0_overExposureAdjust>256</hdrType0_overExposureAdjust>
-    <hdrType1_underExposureAdjust>300</hdrType1_underExposureAdjust>
-    <hdrType1_overExposureAdjust>350</hdrType1_overExposureAdjust>
-    <hdrType2_underExposureAdjust>370</hdrType2_underExposureAdjust>
-    <hdrType2_overExposureAdjust>180</hdrType2_overExposureAdjust>
-    <hdrType3_underExposureAdjust>300</hdrType3_underExposureAdjust>
-    <hdrType3_overExposureAdjust>350</hdrType3_overExposureAdjust>
-    <hdrType5_underExposureAdjust>512</hdrType5_underExposureAdjust>
-    <hdrType5_overExposureAdjust>256</hdrType5_overExposureAdjust>
-    <hdr_NIGHT_underExpoAdj>256</hdr_NIGHT_underExpoAdj>
-    <hdr_NIGHT_overExpoAdj>256</hdr_NIGHT_overExpoAdj>
-    <hdr_STAGE_underExpoAdj>256</hdr_STAGE_underExpoAdj>
-    <hdr_STAGE_overExpoAdj>256</hdr_STAGE_overExpoAdj>
-    <hdr_SUNSET_underExpoAdj>170</hdr_SUNSET_underExpoAdj>
-    <hdr_SUNSET_overExpoAdj>256</hdr_SUNSET_overExpoAdj>
-    <SingleHDR>1</SingleHDR>
+    <hdrType1_underExposureAdjust>80</hdrType1_underExposureAdjust>
+    <hdrType1_overExposureAdjust>100</hdrType1_overExposureAdjust>
+    <hdrType2_underExposureAdjust>27</hdrType2_underExposureAdjust>
+    <hdrType2_overExposureAdjust>327</hdrType2_overExposureAdjust>
+    <hdrType3_underExposureAdjust>27</hdrType3_underExposureAdjust>
+    <hdrType3_overExposureAdjust>192</hdrType3_overExposureAdjust>
+    <hdrType5_underExposureAdjust>40</hdrType5_underExposureAdjust>
+    <hdrType5_overExposureAdjust>246</hdrType5_overExposureAdjust>
   </HdrCompAjust>
-  <BinningControl>
-    <maxYTotalForSingle>40</maxYTotalForSingle>
-    <minYTotalForSingle>15</minYTotalForSingle>
-  </BinningControl>
-  <JPGHDRControl>
-    <JHDRMaxExpoTimeForSensor>320</JHDRMaxExpoTimeForSensor>
-    <JHDRMaxExpoTimeForCapture>80</JHDRMaxExpoTimeForCapture>
-    <JHDRunderEvCompEnHenceRatio>1200</JHDRunderEvCompEnHenceRatio>
-    <JHDRoverEvCompEnHenceRatio>1200</JHDRoverEvCompEnHenceRatio>
-    <JHDR5FrameEnterThre>3100</JHDR5FrameEnterThre>
-    <JHDR7FrameEnterThre>3700</JHDR7FrameEnterThre>
-    <JHDREvCompMaxValueFor3Frames>2000</JHDREvCompMaxValueFor3Frames>
-    <JHDREvCompMaxValueFor5Frames>2100</JHDREvCompMaxValueFor5Frames>
-    <JHDREvCompMaxValueFor7Frames>2200</JHDREvCompMaxValueFor7Frames>
-  </JPGHDRControl>
-  <MEFControl>
-    <MEFCloseTag>1</MEFCloseTag>
-    <MEFSupportedMinExpoThreshold>100</MEFSupportedMinExpoThreshold>
-    <MEFSupportedMinISOThreshold1>800</MEFSupportedMinISOThreshold1>
-    <MEFSupportedMinISOThreshold2>1200</MEFSupportedMinISOThreshold2>
-    <MEFLevel11MinISO>0</MEFLevel11MinISO>
-    <MEFLevel11ExposureComp>500</MEFLevel11ExposureComp>
-    <MEFLevel11ISOComp>2000</MEFLevel11ISOComp>
-    <MEFLevel11MaxISO>250</MEFLevel11MaxISO>
-    <MEFLevel12MinISO>250</MEFLevel12MinISO>
-    <MEFLevel12ExposureComp>500</MEFLevel12ExposureComp>
-    <MEFLevel12ISOComp>2000</MEFLevel12ISOComp>
-    <MEFLevel12MaxISO>500</MEFLevel12MaxISO>
-    <MEFLevel13MinISO>500</MEFLevel13MinISO>
-    <MEFLevel13ExposureComp>500</MEFLevel13ExposureComp>
-    <MEFLevel13ISOComp>2000</MEFLevel13ISOComp>
-    <MEFLevel13MaxISO>1300</MEFLevel13MaxISO>
-    <MEFLevel14MinISO>1300</MEFLevel14MinISO>
-    <MEFLevel14ExposureComp>670</MEFLevel14ExposureComp>
-    <MEFLevel14ISOComp>1500</MEFLevel14ISOComp>
-    <MEFLevel14MaxISO>3500</MEFLevel14MaxISO>
-    <MEFLevel21MinISO>0</MEFLevel21MinISO>
-    <MEFLevel21ExposureComp>500</MEFLevel21ExposureComp>
-    <MEFLevel21ISOComp>2000</MEFLevel21ISOComp>
-    <MEFLevel21MaxISO>250</MEFLevel21MaxISO>
-    <MEFLevel22MinISO>250</MEFLevel22MinISO>
-    <MEFLevel22ExposureComp>500</MEFLevel22ExposureComp>
-    <MEFLevel22ISOComp>2000</MEFLevel22ISOComp>
-    <MEFLevel22MaxISO>500</MEFLevel22MaxISO>
-    <MEFLevel23MinISO>500</MEFLevel23MinISO>
-    <MEFLevel23ExposureComp>500</MEFLevel23ExposureComp>
-    <MEFLevel23ISOComp>2000</MEFLevel23ISOComp>
-    <MEFLevel23MaxISO>1300</MEFLevel23MaxISO>
-    <MEFLevel24MinISO>1300</MEFLevel24MinISO>
-    <MEFLevel24ExposureComp>670</MEFLevel24ExposureComp>
-    <MEFLevel24ISOComp>1500</MEFLevel24ISOComp>
-    <MEFLevel24MaxISO>3500</MEFLevel24MaxISO>
-    <MEFLevel31MinISO>0</MEFLevel31MinISO>
-    <MEFLevel31ExposureComp>500</MEFLevel31ExposureComp>
-    <MEFLevel31ISOComp>2000</MEFLevel31ISOComp>
-    <MEFLevel31MaxISO>250</MEFLevel31MaxISO>
-    <MEFLevel32MinISO>250</MEFLevel32MinISO>
-    <MEFLevel32ExposureComp>500</MEFLevel32ExposureComp>
-    <MEFLevel32ISOComp>2000</MEFLevel32ISOComp>
-    <MEFLevel32MaxISO>500</MEFLevel32MaxISO>
-    <MEFLevel33MinISO>500</MEFLevel33MinISO>
-    <MEFLevel33ExposureComp>500</MEFLevel33ExposureComp>
-    <MEFLevel33ISOComp>2000</MEFLevel33ISOComp>
-    <MEFLevel33MaxISO>1300</MEFLevel33MaxISO>
-    <MEFLevel34MinISO>1300</MEFLevel34MinISO>
-    <MEFLevel34ExposureComp>670</MEFLevel34ExposureComp>
-    <MEFLevel34ISOComp>1500</MEFLevel34ISOComp>
-    <MEFLevel34MaxISO>3500</MEFLevel34MaxISO>
-  </MEFControl>
-  <HDRPControl>
-    <HDRPCloseTag>0</HDRPCloseTag>
-    <HDRPEnterFlag>1006</HDRPEnterFlag>
-  </HDRPControl>
 </AEConfig>

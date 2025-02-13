@@ -2,10 +2,10 @@
 <Config>
   <Global>
     <InvalidYuvCorrec>0</InvalidYuvCorrec>
-    <NoiseReducFlag>1</NoiseReducFlag>
+    <NoiseReducFlag>0</NoiseReducFlag>
     <ContrastEnhanceFlag>0</ContrastEnhanceFlag>
     <SharpnessEnhanceFlag>0</SharpnessEnhanceFlag>
-    <ColorManageFlag>0</ColorManageFlag>
+    <ColorManageFlag>1</ColorManageFlag>
     <MaskGuidedContrastFlag>0</MaskGuidedContrastFlag>
     <MaskGuidedSharpnessFlag>0</MaskGuidedSharpnessFlag>
   </Global>
@@ -366,7 +366,7 @@
       </satGain>
     </Normal>
     <Dark>
-      <satParam>290 320 0 30 0.4 25</satParam>
+      <satParam>270 280 30 40 0.4 40</satParam>
     </Dark>
   </ColorManagement>
   <SceneType>
@@ -467,5 +467,13 @@
         <delta_chromaHF>-10</delta_chromaHF>
       </NoiseReduction>
     </cover>
+    <SCENE_OTHERS>
+      <NoiseReducFlag>0</NoiseReducFlag>
+      <ContrastEnhanceFlag>0</ContrastEnhanceFlag>
+      <SharpnessEnhanceFlag>0</SharpnessEnhanceFlag>
+      <ColorManageFlag>1</ColorManageFlag>
+      <GradualDetailIntensity>0</GradualDetailIntensity>
+      <DarkCornerIntensity>0</DarkCornerIntensity>
+    </SCENE_OTHERS>
   </SceneType>
 </Config>

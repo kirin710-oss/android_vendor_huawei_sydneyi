@@ -3,7 +3,7 @@
   <Gloable>
     <Enable>1</Enable>
     <RamRatio>0.3</RamRatio>
-    <upperLimitInMB>150</upperLimitInMB>
+    <upperLimitInMB>320</upperLimitInMB>
     <upperLimitInMBup4GB>400</upperLimitInMBup4GB>
   </Gloable>
   <Strategy Enable="1">

@@ -20,8 +20,8 @@
     <color_facula>1</color_facula>
   </BlurEffect>
   <FaceCheck>
-    <ratio_to_image>0.1</ratio_to_image>
-    <ratio_to_major_face>0.3</ratio_to_major_face>
+    <ratio_to_image>0.01</ratio_to_image>
+    <ratio_to_major_face>0.2</ratio_to_major_face>
     <face_recover>0</face_recover>
   </FaceCheck>
   <HairRefine>
@@ -43,7 +43,7 @@
   </ITR>
   <PreviewConfig>
     <preview_mask_refine>1</preview_mask_refine>
-    <preview_mask_multiface>0</preview_mask_multiface>
+    <preview_mask_multiface>1</preview_mask_multiface>
     <preview_calc_mask_interval>3</preview_calc_mask_interval>
   </PreviewConfig>
   <IPUConfig>

@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<CONFIG_PARA>
+  <DYNAMIC_LOW_ENVLUMA value="60" />
+  <DYNAMIC_HIGH_ENVLUMA value="65" />
+  <SENSORHDR_LOW_ENVLUMA value="60" />
+  <SENSORHDR_HIGH_ENVLUMA value="85" />
+  <SENSORHDR_CONTRAST value="600" />
+  <LOW_ENVLUMA_THRESHOLD value="60" />
+  <HIGH_ENVLUMA_THRESHOLD value="65" />
+  <LOW_CONTRAST_THRESHOLD value="600" />
+  <HIGH_CONTRAST_THRESHOLD value="800" />
+</CONFIG_PARA>

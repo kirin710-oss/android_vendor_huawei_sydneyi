@@ -73,7 +73,7 @@
     </Thresh10>
   </DarkMotionDetection>
   <Surf>
-    <MatchPairs>5</MatchPairs>
+    <MatchPairs>100</MatchPairs>
   </Surf>
   <PureColorMotionDetection>
     <MotionRatio>0.2</MotionRatio>
@@ -111,14 +111,14 @@
     <NoFlashWeight>128</NoFlashWeight>
   </FlashHDR>
   <Face>
-    <AjustRatio>255</AjustRatio>
+    <AjustRatio>128</AjustRatio>
     <Margin>10</Margin>
     <SmoothRadius>40</SmoothRadius>
   </Face>
   <PreMotionDetection>
     <MotionLowGray>10</MotionLowGray>
     <MotionHighGray>20</MotionHighGray>
-    <MotionRatio>100.0</MotionRatio>
+    <MotionRatio>5.0</MotionRatio>
   </PreMotionDetection>
   <MultiFrameHDR>
     <MotionLowGray>10</MotionLowGray>
@@ -140,8 +140,8 @@
     <MaxDarkWeight>1.0</MaxDarkWeight>
     <PyramidTopSize>16</PyramidTopSize>
     <WeightCalcMethod>1</WeightCalcMethod>
-    <MinUnderExposureDiv>96</MinUnderExposureDiv>
-    <MaxUnderExposureDiv>128</MaxUnderExposureDiv>
+    <MinUnderExposureDiv>32</MinUnderExposureDiv>
+    <MaxUnderExposureDiv>96</MaxUnderExposureDiv>
     <MinOverExposureDiv>176</MinOverExposureDiv>
     <MaxOverExposureDiv>226</MaxOverExposureDiv>
     <BlendCenter>128</BlendCenter>

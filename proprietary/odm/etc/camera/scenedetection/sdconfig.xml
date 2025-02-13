@@ -5,7 +5,6 @@
     <sdvideo name="sdvideo" switcher="0"></sdvideo>
     <stableFrame name="stableFrame" switcher="30"></stableFrame>
     <unstableFrame name="unstableFrame" switcher="30"></unstableFrame>
-    <front name="front" switcher="1"></front>
   </AlgoControl>
   <FilterStrategy>
     <Scene0>
@@ -69,8 +68,8 @@
       <enable>1</enable>
       <inConfThd>950</inConfThd>
       <outConfThd>700</outConfThd>
-      <inLVThd>70</inLVThd>
-      <outLVThd>60</outLVThd>
+      <inLVThd>60</inLVThd>
+      <outLVThd>50</outLVThd>
     </Scene7>
     <Scene8>
       <index>8</index>
@@ -173,24 +172,8 @@
       <enable>1</enable>
       <inConfThd>950</inConfThd>
       <outConfThd>700</outConfThd>
-      <inLVThd>70</inLVThd>
-      <outLVThd>60</outLVThd>
+      <inLVThd>60</inLVThd>
+      <outLVThd>50</outLVThd>
     </Scene20>
-    <Scene21>
-      <index>21</index>
-      <enable>1</enable>
-      <inConfThd>950</inConfThd>
-      <outConfThd>700</outConfThd>
-      <inLVThd>0</inLVThd>
-      <outLVThd>0</outLVThd>
-    </Scene21>
-    <Scene22>
-      <index>22</index>
-      <enable>1</enable>
-      <inConfThd>950</inConfThd>
-      <outConfThd>700</outConfThd>
-      <inLVThd>0</inLVThd>
-      <outLVThd>0</outLVThd>
-    </Scene22>
   </FilterStrategy>
 </SDAlgoConfig>

@@ -2,6 +2,7 @@
 <PPConfig>
   <Mode name="davinci_front" switcher="1">
     <PPAlgo name="davincidsp" />
+    <PPAlgo name="ldc" />
   </Mode>
   <Mode name="davinci_rear" switcher="1">
     <PPAlgo name="davincidsp" />
@@ -27,13 +28,18 @@
     <PPAlgo name="sr" />
   </Mode>
   <Mode name="smart_hdr_front" switcher="1">
-    <PPAlgo name="ctdetect" />
-    <PPAlgo name="frontbokehmask" />
     <PPAlgo name="hdrdsp" />
     <PPAlgo name="davincidsp" />
     <PPAlgo name="ldc" />
   </Mode>
-  <Mode name="digitalzoom" switcher="1">
+  <Mode name="sensorhdr" switcher="1">
+    <PPAlgo name="davincidsp" />
+  </Mode>
+  <Mode name="sensorhdr_beauty" switcher="1">
+    <PPAlgo name="davincidsp" />
+    <PPAlgo name="HwBeautyPpAlgo" />
+  </Mode>
+  <Mode name="digitalzoom" switcher="0">
     <PPAlgo name="digitalzoom" />
   </Mode>
   <Mode name="multidenoise" switcher="1">
@@ -56,6 +62,7 @@
   <Mode name="beauty_front_noneextisp" switcher="1">
     <PPAlgo name="davincidsp" />
     <PPAlgo name="HwBeautyPpAlgo" />
+    <PPAlgo name="ldc" />
   </Mode>
   <Mode name="beauty_rear_extisp" switcher="0">
     <PPAlgo name="HwBeautyPpAlgo" />
@@ -72,7 +79,7 @@
   <Mode name="edof_hidden" switcher="1">
     <PPAlgo name="davinci" />
   </Mode>
-  <Mode name="self_portrait_noface" switcher="0">
+  <Mode name="self_portrait_noface" switcher="1">
     <PPAlgo name="davinci" />
     <PPAlgo name="HwBeautyPpAlgo" />
   </Mode>
@@ -82,15 +89,17 @@
     <PPAlgo name="refocus" />
   </Mode>
   <Mode name="fairlight_rear" switcher="1">
+    <PPAlgo name="davincidsp" />
     <PPAlgo name="HwBeautyPpAlgo" />
     <PPAlgo name="fairlight" />
   </Mode>
   <Mode name="fairlight_front" switcher="1">
+    <PPAlgo name="davincidsp" />
     <PPAlgo name="HwBeautyPpAlgo" />
     <PPAlgo name="fairlight" />
   </Mode>
   <Mode name="fairlight_frontbokeh" switcher="1">
-    <PPAlgo name="ctdetect" />
+    <PPAlgo name="davinci" />
     <PPAlgo name="frontbokehmask" />
     <PPAlgo name="frontbokeh" />
     <PPAlgo name="HwBeautyPpAlgo" />
@@ -103,15 +112,24 @@
     <PPAlgo name="fairlight" />
   </Mode>
   <Mode name="fairlight_self_portrait" switcher="1">
+    <PPAlgo name="davinci" />
     <PPAlgo name="HwBeautyPpAlgo" />
     <PPAlgo name="refocus" />
     <PPAlgo name="fairlight" />
   </Mode>
   <Mode name="frontbokeh_beauty" switcher="1">
-    <PPAlgo name="ctdetect" />
+    <PPAlgo name="davinci" />
     <PPAlgo name="frontbokehmask" />
+    <PPAlgo name="ldc" />
     <PPAlgo name="frontbokeh" />
     <PPAlgo name="HwBeautyPpAlgo" />
+  </Mode>
+  <Mode name="frontbokeh" switcher="0">
+    <PPAlgo name="davinci" />
+    <PPAlgo name="ctdetect" />
+    <PPAlgo name="frontbokehmask" />
+    <PPAlgo name="ldc" />
+    <PPAlgo name="frontbokeh" />
   </Mode>
   <Mode name="sr" switcher="0"></Mode>
   <Mode name="fastshot" switcher="0">
@@ -144,8 +162,6 @@
     <PPAlgo name="sr" />
   </Mode>
   <Mode name="beauty_hdr_front" switcher="1">
-    <PPAlgo name="ctdetect" />
-    <PPAlgo name="frontbokehmask" />
     <PPAlgo name="hdrdsp" />
     <PPAlgo name="davincidsp" />
     <PPAlgo name="HwBeautyPpAlgo" />
@@ -153,7 +169,6 @@
   </Mode>
   <Mode name="nicefood" switcher="1">
     <PPAlgo name="NiceFoodPpAlgo" />
-    <PPAlgo name="davincidsp" />
   </Mode>
   <Mode name="mono" switcher="0">
     <PPAlgo name="davincidsp" />
@@ -185,11 +200,11 @@
   <Mode name="sdkdepthcalc" switcher="0">
     <PPAlgo name="dualdepth" />
   </Mode>
-  <Mode name="opticalzoomnornal" switcher="0">
+  <Mode name="opticalzoomnornal" switcher="1">
     <PPAlgo name="hwaxymap" />
     <PPAlgo name="opticalzoomdsp" />
   </Mode>
-  <Mode name="opticalzoombeauty" switcher="0">
+  <Mode name="opticalzoombeauty" switcher="1">
     <PPAlgo name="hwaxymap" />
     <PPAlgo name="opticalzoomdsp" />
     <PPAlgo name="HwBeautyPpAlgo" />
@@ -216,21 +231,12 @@
   <Mode name="foreRemosaic" switcher="1">
     <PPAlgo name="davincidsp" />
   </Mode>
-  <Mode name="ircamera" switcher="0">
+  <Mode name="ircamera" switcher="1">
     <PPAlgo name="IRCameraPpAlgo" />
   </Mode>
   <Mode name="smartcapture" switcher="1">
     <PPAlgo name="segmentationmask" />
     <PPAlgo name="SmartBeauty" />
     <PPAlgo name="davincidsp" />
-  </Mode>
-  <Mode name="fofflineremosaic" switcher="1">
-    <PPAlgo name="offlineRemosaic" />
-    <PPAlgo name="davincidsp" />
-  </Mode>
-  <Mode name="fbeautyofflineremosaic" switcher="1">
-    <PPAlgo name="offlineRemosaic" />
-    <PPAlgo name="davincidsp" />
-    <PPAlgo name="HwBeautyPpAlgo" />
   </Mode>
 </PPConfig>
